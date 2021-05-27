@@ -30,6 +30,8 @@ ClassMethod ListReplacement()
   write !, fruit
   SET $LIST(fruit,*-2)="peach"  ; offset from end of list}
   write !, fruit
+  SET $LIST(fruit,2)=""
+  write !, fruit
 }
 
 }
