@@ -27,7 +27,9 @@ ClassMethod ListReplacement()
   SET $LIST(fruit,2)="orange"   ; count from beginning of list
   write !, fruit
   SET $LIST(fruit,*)="pear"     ; element at end of list
+  write !, fruit
   SET $LIST(fruit,*-2)="peach"  ; offset from end of list}
+  write !, fruit
 }
 
 }
