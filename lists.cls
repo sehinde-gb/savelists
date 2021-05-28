@@ -36,9 +36,9 @@ ClassMethod ListReplacement()
 
 ClassMethod Piecing()
 {
-  set count=2
-  set alph="a^b^c^d"
-  write $piece(alph, "^",*+count)
+   SET colorlist="Red,Green,Blue,Yellow,Orange,Black"
+   SET extract=$PIECE(colorlist,",",3,5)
+   WRITE extract
 }
 
 }
