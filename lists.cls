@@ -34,4 +34,11 @@ ClassMethod ListReplacement()
   write !, fruit
 }
 
+ClassMethod Piecing()
+{
+  set count=2
+  set alph="a^b^c^d"
+  write $piece(alph, "^",*+count)
+}
+
 }
